@@ -1,4 +1,4 @@
-export const fizzBuzz = (num) => {
+const fizzBuzz = (num) => {
   if (num % 15 === 0) {
     return 'FizzBuzz';
   } else if (num % 5 === 0) {
@@ -7,3 +7,5 @@ export const fizzBuzz = (num) => {
     return num;
   }
 };
+
+export default fizzBuzz;

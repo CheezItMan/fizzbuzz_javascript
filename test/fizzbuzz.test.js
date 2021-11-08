@@ -1,4 +1,4 @@
-import { fizzBuzz } from '../src/fizzbuzz';
+import fizzBuzz from '../src/fizzbuzz';
 
 // const { fizzBuzz } = require("/src/fizzbuzz");
 
